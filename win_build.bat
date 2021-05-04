@@ -1,0 +1,1 @@
+gcc -std=c17 main.c -Wall -Wextra -O2 -g  -Iinclude -Ivendor/SDL2-2.0.14/include -Lvendor/SDL2-2.0.14/lib -lmingw32 -lSDL2main -lSDL2 -o bin/vivid.exe
